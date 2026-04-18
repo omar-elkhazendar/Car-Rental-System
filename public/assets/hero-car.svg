@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="car" x1="430" y1="280" x2="1180" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#bg)"/>
+
+  <circle cx="250" cy="120" r="130" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="1420" cy="560" r="180" fill="rgba(255,255,255,0.08)"/>
+
+  <path d="M360 430C360 381 400 341 449 341H1060C1095 341 1129 355 1150 380L1227 470H1260C1293 470 1320 497 1320 530V555H1265C1256 555 1248 563 1248 572V603H453V572C453 563 445 555 436 555H360V430Z" fill="url(#car)"/>
+  <path d="M502 326C522 281 567 252 617 252H922C971 252 1015 279 1037 323L1050 350H491L502 326Z" fill="#E2E8F0"/>
+
+  <circle cx="560" cy="600" r="72" fill="#111827"/>
+  <circle cx="1112" cy="600" r="72" fill="#111827"/>
+  <circle cx="560" cy="600" r="32" fill="#94A3B8"/>
+  <circle cx="1112" cy="600" r="32" fill="#94A3B8"/>
+
+  <text x="120" y="620" fill="rgba(255,255,255,0.22)" font-family="Segoe UI, Arial, sans-serif" font-size="84" font-weight="700">
+    AutoMotors
+  </text>
+</svg>
